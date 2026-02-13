@@ -1,0 +1,36 @@
+.main-message {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#secretBtn {
+    background-color: #ff4b5c;
+    color: white;
+    transition: 0.3s;
+}
+
+#secretBtn:hover {
+    transform: scale(1.05);
+}
+
+.hidden {
+    display: none;
+    margin-top: 20px;
+    font-size: 17px;
+    animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+.show {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+#noBtn {
+    background-color: #ddd;
+}
+

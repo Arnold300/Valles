@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>You Said Yes 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>YOU SAID YES 😍💍</h1>
+
+        <p class="main-message">
+            I knew you would… because something this special
+            was always meant to be ❤️
+        </p>
+
+        <button id="secretBtn">Open Secret Note 💌</button>
+
+        <div id="secretMessage" style="display:none; margin-top:20px;">
+            <p>
+                From the moment we met, something felt different.
+                Calm. Real. Special.  
+                And today just made it official ❤️  
+                I promise adventures, laughter, and endless support.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const secretBtn = document.getElementById("secretBtn");
+            const secretMessage = document.getElementById("secretMessage");
+
+            secretBtn.addEventListener("click", function () {
+                secretMessage.style.display = "block";
+                secretBtn.style.display = "none";
+            });
+        });
+    </script>
+
+</body>
+</html>
+
+
+</body>
+</html>
